@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.contenedor {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: auto;
+}
+
+.caja {
+    background-color: burlywood;
+    margin: 5px 0;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.cabeza {
+    height: 120px;
+    width: 120px;
+    background-color: #d2b48c;
+    position: relative; /* Añadido para posicionar elementos internos */
+}
+
+.ojo {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+}
+
+.ojo-izquierdo {
+    left: 30px;
+}
+
+.ojo-derecho {
+    right: 30px;
+}
+
+.nariz {
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    position: absolute;
+    top: 50px;
+    left: 55px;
+}
+
+.boca {
+    width: 40px;
+    height: 5px;
+    background-color: #000;
+    position: absolute;
+    top: 70px;
+    left: 40px;
+}
+
+.tronco-superior {
+    height: 100px;
+    background-color: #c3a380;
+}
+
+.tronco-medio {
+    height: 180px;
+    background-color: #b89473;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.caja-brazos {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.brazo {
+    width: 40px;
+    height: 180px;
+    background-color: #a88366;
+}
+
+.tronco-inferior {
+    height: 120px;
+    background-color: #97745a;
+}
+
+.pierna {
+    width: 40%;
+    height: 140px;
+    background-color: #856649;
+    margin: 0 5px;
+}
